@@ -7,3 +7,4 @@ let imc = peso / (altura * altura);
 let anodeNascimento = 2025 - idade;
 console.log('seu nome é', nome, sobrenome, 'é tem', idade, 'anos', 'e seu peso é', peso, 'kg', 'já seu imc é', imc);
 
+
