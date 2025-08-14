@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cadastro</title>
+  <style>
+    body { font-family: Arial, sans-serif; }
+    .resultado p { margin: 4px 0; }
+    .erro { color:#b00; }
+    .ok { color:#060; }
+    ul { padding-left: 18px; }
+  </style>
+</head>
+<body>
+  <form class="form" action="" method="get">
+    <p>Nome: <input type="text" class="nome" /></p>
+    <p>Sobrenome: <input type="text" class="sobrenome" /></p>
+    <p>Peso: <input type="text" class="peso" /></p>
+    <p>Altura: <input type="text" class="altura" /></p>
+    <button type="submit">Enviar</button>
+  </form>
+
+  <div class="resultado"></div>
+  <h3>Cadastros salvos</h3>
+  <ul class="lista"></ul>
+
+  <!-- ajuste para o caminho correto da sua pasta (JS vs js) -->
+  <script src="JS/script.js"></script>
+</body>
+</html>
