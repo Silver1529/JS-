@@ -1,0 +1,12 @@
+const nome = 'miguel'
+
+function falaNome() {
+const nome = 'otavio'
+console.log (nome);
+}
+
+function usaFalaNome () {
+falaNome ();
+
+}
+
