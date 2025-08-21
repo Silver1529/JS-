@@ -1,4 +1,3 @@
-# JS-
 JS treinos
 # JS Treinos 🚀
 
